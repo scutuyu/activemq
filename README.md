@@ -53,6 +53,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 f3206e8ad900        activemq            "/app/run.sh"            22 minutes ago      Up 23 minutes       1883/tcp, 5672/tcp, 0.0.0.0:8161->8161/tcp, 61613-61614/tcp, 0.0.0.0:61616->61616/tcp   zealous_wright
 466af12a8af8        zookeeper           "/docker-entrypoint.…"   11 hours ago        Up 11 hours         2888/tcp, 0.0.0.0:2181->2181/tcp, 3888/tcp                                              elegant_joliot
 ```
+7. 浏览器访问http://localhost:8161/admin/   admin/admin --访问ActiveMQ的控制台
 
 # 运行
 
